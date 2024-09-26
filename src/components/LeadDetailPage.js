@@ -65,6 +65,11 @@ const EnrollmentDetailPage = () => {
             </ListItem>
             <ListItem display="flex" alignItems="center">
               <Text>
+                <strong>DNI:</strong> {enrollmentItem.dni}
+              </Text>
+            </ListItem>
+            <ListItem display="flex" alignItems="center">
+              <Text>
                 <strong>Email:</strong> {enrollmentItem.email}
               </Text>
             </ListItem>
